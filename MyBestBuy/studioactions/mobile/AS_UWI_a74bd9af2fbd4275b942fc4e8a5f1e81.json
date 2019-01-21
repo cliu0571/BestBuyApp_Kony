@@ -1,0 +1,28 @@
+{
+    "AS_UWI_a74bd9af2fbd4275b942fc4e8a5f1e81": {
+        "id": "AS_UWI_a74bd9af2fbd4275b942fc4e8a5f1e81",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "ProductListPage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a0c84cc4669d4b048135ef4e17e036d0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___id3f58bdd2cb44599864f307ddc2bbf9",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "ProductList_Back_OnClick",
+            "display": "ProductList_Back_OnClick",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

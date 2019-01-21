@@ -1,0 +1,38 @@
+{
+    "AS_Form_g662fffaed7044f3946cbf9398bb4664": {
+        "id": "AS_Form_g662fffaed7044f3946cbf9398bb4664",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "HomePage",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c142f1a718fd4dde81081d2e9c0a5153"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___c5a47fbc7db94a12b988c264e403450b",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "HomePage_Init",
+            "display": "HomePage_Init",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "INVOKE_FUNCTION___c2e277a4051e4390b615966bc7c72674",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "HomePage_GetCategoriesData",
+            "display": "HomePage_GetCategoriesData",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

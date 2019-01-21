@@ -1,0 +1,31 @@
+{
+    "AS_TextField_da61863493ef4fc19b673a548316ccf8": {
+        "id": "AS_TextField_da61863493ef4fc19b673a548316ccf8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "HomePage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c142f1a718fd4dde81081d2e9c0a5153"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___i3715f2a3ba24235b645226df817b11a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "Search_Input_OnDone",
+            "display": "Search_Input_OnDone",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

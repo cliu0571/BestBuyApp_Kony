@@ -1,0 +1,28 @@
+{
+    "AS_Form_d2fd5625c0d44ab096a09761ebf9e674": {
+        "id": "AS_Form_d2fd5625c0d44ab096a09761ebf9e674",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "ProductListPage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a0c84cc4669d4b048135ef4e17e036d0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___effc20ee38624240a10f68aa6fd1bb83",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "ProductList_Animation",
+            "display": "ProductList_Animation",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

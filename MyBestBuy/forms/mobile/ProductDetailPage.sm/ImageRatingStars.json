@@ -1,0 +1,63 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "45%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0ff6e74b07b4d50826d2ac075f3ee87",
+    "_src_": "ratings_star_5.png",
+    "_top_": {
+        "type": "string",
+        "value": "52%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "35%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "ProductDetailPage",
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "ImageRatingStars",
+    "imagescalemode": 1,
+    "imagewhenfailed": "ratings_star_1.png",
+    "imagewhiledownloading": "ratings_star_1.png",
+    "info": null,
+    "invokedProperty": "imageWhenFailed",
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "fca86711a6b443c99a26f4f5a5addd97",
+    "name": "kony.ui.Image2",
+    "parent": "FlexProductDetail",
+    "pf": "ProductDetailPage",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

@@ -1,0 +1,28 @@
+{
+    "AS_Form_i3e508db23554c2b9d339209b510976a": {
+        "id": "AS_Form_i3e508db23554c2b9d339209b510976a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "HomePage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c142f1a718fd4dde81081d2e9c0a5153"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___df3c28af0dfd4be982b162edf984049d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "HomePage_Segment_Animation",
+            "display": "HomePage_Segment_Animation",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

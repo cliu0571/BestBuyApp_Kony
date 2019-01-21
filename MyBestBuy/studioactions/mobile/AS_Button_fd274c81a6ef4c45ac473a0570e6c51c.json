@@ -1,0 +1,28 @@
+{
+    "AS_Button_fd274c81a6ef4c45ac473a0570e6c51c": {
+        "id": "AS_Button_fd274c81a6ef4c45ac473a0570e6c51c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "HomePage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c142f1a718fd4dde81081d2e9c0a5153"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ec514fb04cfe4254a0ee37882230c237",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "HomePage_Search_BtnCancel_OnClick",
+            "display": "HomePage_Search_BtnCancel_OnClick",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

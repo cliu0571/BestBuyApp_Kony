@@ -1,0 +1,105 @@
+{
+    "classname": "CompHeader",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "bf6a4f080afe4d7faddc1c6924b3a76c",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onClickBack",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickBack",
+                        "srcWidget": "FlexBack",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "i69041d62a0b4200b194ea3bc73d6f4c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i7f84769afe24abfa120c627c8e93188",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onClickSearch",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickSearch",
+                        "srcWidget": "FlexSearch",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "c6bcc2a90dc0431cb17497cf9bb846e6"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j49c1c1daa394a05b154e54bd1b5457c",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "isVisibleBack",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "isVisibleBack",
+                        "srcWidget": "FlexBack",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "i69041d62a0b4200b194ea3bc73d6f4c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "if95034cdc774609913bcf1c5b231648",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 2,
+                    "propertyKey": "isVisibleSearch",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "isVisibleSearch",
+                        "srcWidget": "FlexSearch",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "c6bcc2a90dc0431cb17497cf9bb846e6"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "BestBuyComponents",
+    "version": "1.0.0"
+}

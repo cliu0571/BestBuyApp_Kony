@@ -1,0 +1,34 @@
+{
+    "AS_Segment_hd576eb59f5647769b029bab47709c11": {
+        "id": "AS_Segment_hd576eb59f5647769b029bab47709c11",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "ProductListPage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a0c84cc4669d4b048135ef4e17e036d0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d4b4732d520d46b4a394ee3dff49459d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "ProductList_Row_OnClick",
+            "display": "ProductList_Row_OnClick",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

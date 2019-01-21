@@ -1,0 +1,63 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "3%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0ff6e74b07b4d50826d2ac075f3ee87",
+    "_src_": "ratings_star_5.png",
+    "_top_": {
+        "type": "string",
+        "value": "43%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "platform": "iphone",
+        "templateType": "segments",
+        "topLevelBox": null
+    },
+    "id": "ImageRatingStars",
+    "imagescalemode": 1,
+    "imagewhenfailed": "ratings_star_1.png",
+    "imagewhiledownloading": "ratings_star_1.png",
+    "info": null,
+    "invokedProperty": "imageWhenFailed",
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d8dee2e42fc44e108c9b8e3fd55562fd",
+    "name": "kony.ui.Image2",
+    "parent": "FlexRowReview",
+    "pf": "TempRowReview",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

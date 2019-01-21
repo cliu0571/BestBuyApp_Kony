@@ -1,0 +1,63 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "84%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "3%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0ff6e74b07b4d50826d2ac075f3ee87",
+    "_src_": "imagedrag.png",
+    "_top_": {
+        "type": "string",
+        "value": "13%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "platform": "iphone",
+        "templateType": "segments",
+        "topLevelBox": null
+    },
+    "id": "ImageProduct",
+    "imagescalemode": 1,
+    "imagewhenfailed": "kony_88.png",
+    "imagewhiledownloading": "kony_88.png",
+    "info": null,
+    "invokedProperty": "imageWhileDownloading",
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ec7b81968a4a4e01a16822fb060eada7",
+    "name": "kony.ui.Image2",
+    "parent": "FlexRowProductList",
+    "pf": "TempRowProductList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}
